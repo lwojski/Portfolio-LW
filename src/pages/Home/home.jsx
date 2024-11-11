@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from '../../components/Card/card'
+import Form from '../../components/Form/form'
 import projets from '../../data/projets.json'
 import './home.scss'
 
@@ -17,6 +18,9 @@ function Home() {
                         />
                     ))}
                 </div>
+            </div>
+            <div className="home-form">
+                <Form />
             </div>
         </section>
     )
