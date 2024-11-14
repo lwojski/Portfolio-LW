@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { ChevronDown, ChevronUp, Globe } from 'lucide-react'
 import githubLogo from '../../assets/github-mark.svg'
+import trelloLogo from '../../assets/trello-mark.svg'
 import projectsData from '../../data/projects.json'
 import './project_gallery.scss'
 
@@ -53,7 +54,7 @@ const ProjectGallery = () => {
                             >
                                 <div className="project-card__technologies">
                                     <h4 className="project-card__technologies-title">
-                                        Technologies utilisées
+                                        Tags
                                     </h4>
                                     <div className="project-card__tags">
                                         {project.tags.map((tag) => (
@@ -95,6 +96,21 @@ const ProjectGallery = () => {
                                                 className="project-card__link-icon"
                                             />
                                             Site web
+                                        </a>
+                                    )}
+                                    {project.trello && (
+                                        <a
+                                            href={project.trello}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="project-card__link project-card__link--trello"
+                                        >
+                                            <img
+                                                src={trelloLogo}
+                                                alt="Trello"
+                                                className="project-card__link-icon"
+                                            />
+                                            Trello
                                         </a>
                                     )}
                                 </div>

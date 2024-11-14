@@ -3,7 +3,7 @@
         "id": "booki",
         "title": "Booki",
         "cover": "https://cdn.blastness.biz/media/820/top/thumbs/full/1920-HOME-2024-1.jpg",
-        "description": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
+        "description": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS",
         "tags": ["HTML", "CSS"],
         "github": "https://github.com/lwojski/P2-Booki-LW",
         "website": "https://lwojski.github.io/P2-Booki-LW"
@@ -12,7 +12,7 @@
         "id": "sophie-bluel",
         "title": "Sophie Bluel",
         "cover": "https://i.postimg.cc/gJdw4jKM/sophie-bluel-project.webp",
-        "description": "Créez une page web dynamique avec JavaScript",
+        "description": "Création d'un portfolio dynamique avec JavaScript pour une architecte d’intérieur",
         "tags": ["JavaScript", "HTML", "CSS"],
         "github": "https://github.com/lwojski/P3-SophieBluel-LW"
     },
@@ -20,7 +20,7 @@
         "id": "nina-carducci",
         "title": "Nina Carducci",
         "cover": "https://maximegodfroy.github.io/Projet5_Debuggez_et_optimisez_un_site_de_photographe/assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp",
-        "description": "Débuggez et optimisez un site de photographe",
+        "description": "Débogage et optimisation du site d'une photographe",
         "tags": ["SEO", "Lighthouse", "Wave"],
         "github": "https://github.com/lwojski/P4-NinaCarducci-LW",
         "website": "https://lwojski.github.io/P4-NinaCarducci-LW/"
@@ -29,7 +29,7 @@
         "id": "kasa",
         "title": "Kasa",
         "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
-        "description": "Créez une application web de location immobilière avec React",
+        "description": "Création d'une application web de location immobilière avec React",
         "tags": ["React", "SCSS"],
         "github": "https://github.com/lwojski/P5-KASA-LW",
         "website": "https://lwojski.github.io/P5-KASA-LW/"
@@ -38,8 +38,16 @@
         "id": "mon-vieux-grimoire",
         "title": "Mon Vieux Grimoire",
         "cover": "https://img.freepik.com/vecteurs-premium/illustration-vectorielle-livres_969863-74149.jpg?semt=ais_hybrid",
-        "description": "Développez le back-end d'un site de notation de livres",
+        "description": "Création du back-end d'un site de notation de livres",
         "tags": ["NodeJS", "ExpressJS", "MongoDB", "API REST"],
         "github": "https://github.com/lwojski/P6-MONVIEUXGRIMOIRE-LW"
+    },
+    {
+        "id": "qwenta",
+        "title": "Qwenta",
+        "cover": "https://i.postimg.cc/LsFWk9y5/spencer-davis-dn-Q5saua-Fz0-unsplash-1.png",
+        "description": "Gestion de projet - planification du développement du site Menu Maker.",
+        "tags": ["Gestion de projet", "Trello", "Agile", "SCRUM"],
+        "trello": "https://trello.com/b/7q5x8iM6/qwenta"
     }
 ]
