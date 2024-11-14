@@ -6,6 +6,13 @@ import linkedinLogo from '../../assets/linkedin-mark.svg'
 import './header.scss'
 
 function Header() {
+    const handleSkillsClick = () => {
+        scroll.scrollTo(document.querySelector('.skills').offsetTop, {
+            smooth: 'true',
+            duration: 500,
+        })
+    }
+
     const handleProjectsClick = () => {
         scroll.scrollTo(document.querySelector('.gallery').offsetTop, {
             smooth: 'true',
@@ -50,6 +57,9 @@ function Header() {
                 </a>
             </div>
             <nav>
+                <button onClick={handleSkillsClick} className="nav-link">
+                    Compétences
+                </button>
                 <button onClick={handleProjectsClick} className="nav-link">
                     Projets
                 </button>
