@@ -7,6 +7,19 @@ footer {
     background-color: black;
     flex-shrink: 0;
 
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .footer-icon {
+        width: 30px;
+        height: 30px;
+        margin: 0rem 1rem;
+        cursor: pointer;
+    }
+
     p {
         color: white;
         font-size: 20px;

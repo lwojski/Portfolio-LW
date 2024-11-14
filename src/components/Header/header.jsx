@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import { animateScroll as scroll } from 'react-scroll'
 import logo from '../../assets/logo.png'
+import githubLogo from '../../assets/github-mark.svg'
+import linkedinLogo from '../../assets/linkedin-mark.svg'
 import './header.scss'
 
 function Header() {
@@ -20,9 +22,33 @@ function Header() {
 
     return (
         <header>
-            <Link to="/">
-                <img src={logo} alt="Logo Lilian" className="logo" />
-            </Link>
+            <div className="header-left">
+                <Link to="/">
+                    <img src={logo} alt="Logo Lilian" className="logo" />
+                </Link>
+                <a
+                    href="https://github.com/lwojski"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        src={githubLogo}
+                        alt="Github"
+                        className="header-icon"
+                    />
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/lilian-wojciechowski-3911b3333"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        src={linkedinLogo}
+                        alt="Linkedin"
+                        className="header-icon"
+                    />
+                </a>
+            </div>
             <nav>
                 <button onClick={handleProjectsClick} className="nav-link">
                     Projets

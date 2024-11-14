@@ -1,10 +1,10 @@
 /***** PROJECT GALLERY *****/
 
 .gallery {
-    max-width: 1280px;
-    margin: 0 auto;
     padding: 2.5rem 0rem 2.5rem 0rem;
     background-color: #e6dacb;
+    width: 100%;
+    border-bottom: 1px solid #5c4033;
 
     &__title {
         font-size: 2rem;
@@ -17,6 +17,8 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 2rem;
+        max-width: 1280px;
+        margin: 0 auto;
 
         @media (min-width: 768px) {
             grid-template-columns: repeat(2, 1fr);

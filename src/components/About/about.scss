@@ -1,0 +1,27 @@
+/***** ABOUT *****/
+
+.about {
+    background-color: #473831;
+    padding: 3rem 1rem;
+    text-align: center;
+    color: whitesmoke;
+
+    &__title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        color: #e6dacb;
+    }
+
+    &__description {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+    }
+
+    .photo {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}

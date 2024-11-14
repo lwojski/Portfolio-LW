@@ -38,7 +38,7 @@
         "title": "Mon Vieux Grimoire",
         "cover": "https://img.freepik.com/vecteurs-premium/illustration-vectorielle-livres_969863-74149.jpg?semt=ais_hybrid",
         "description": "Développez le back-end d'un site de notation de livres",
-        "tags": ["NodeJS", "Express", "MongoDB", "API RESTful"],
+        "tags": ["NodeJS", "ExpressJS", "MongoDB", "API REST"],
         "github": "https://github.com/lwojski/P6-MONVIEUXGRIMOIRE-LW"
     }
 ]
