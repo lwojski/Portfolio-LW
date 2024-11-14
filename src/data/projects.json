@@ -5,7 +5,8 @@
         "cover": "https://cdn.blastness.biz/media/820/top/thumbs/full/1920-HOME-2024-1.jpg",
         "description": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
         "tags": ["HTML", "CSS"],
-        "github": "https://github.com/lwojski/P2-Booki-LW"
+        "github": "https://github.com/lwojski/P2-Booki-LW",
+        "website": "https://lwojski.github.io/P2-Booki-LW"
     },
     {
         "id": "sophie-bluel",

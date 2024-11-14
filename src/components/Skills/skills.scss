@@ -1,0 +1,115 @@
+.skills {
+    padding: 2.5rem 0rem 2.5rem 0rem;
+    width: 100%;
+    border-bottom: 1px solid #5c4033;
+
+    &__container {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 0rem;
+    }
+
+    &__grid {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 1fr;
+
+        @media (min-width: 768px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media (min-width: 1024px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    &__card {
+        background-color: #f5f5f5;
+        border-radius: 1rem;
+        box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: box-shadow 0.3s ease;
+
+        &:hover {
+            box-shadow: 0 10px 16px rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    &__card-content {
+        padding: 1.5rem;
+    }
+
+    &__category-title {
+        font-size: 1.25rem;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 2rem;
+        color: #61483d;
+    }
+
+    &__subcategory {
+        margin-bottom: 2rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__subcategory-title {
+        font-size: 1.1rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        color: #5c4033;
+    }
+
+    &__skills-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+
+        @media (min-width: 640px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    &__skill {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.15);
+            opacity: 0.9;
+        }
+    }
+
+    &__skill-icon-wrapper {
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0.3rem;
+        background-color: white;
+        border-radius: 0.75rem;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        padding: 0.5rem;
+    }
+
+    &__skill-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    &__skill-name {
+        font-size: 0.85rem;
+        text-align: center;
+    }
+}

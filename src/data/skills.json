@@ -1,0 +1,68 @@
+[
+    {
+        "id": "front-end",
+        "title": "FrontEnd",
+        "skills": [
+            {
+                "name": "HTML",
+                "icon": "https://simpleicons.org/icons/html5.svg"
+            },
+            {
+                "name": "CSS",
+                "icon": "https://simpleicons.org/icons/css3.svg"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "https://simpleicons.org/icons/javascript.svg"
+            },
+            {
+                "name": "React",
+                "icon": "https://simpleicons.org/icons/react.svg"
+            },
+            {
+                "name": "SASS",
+                "icon": "https://simpleicons.org/icons/sass.svg"
+            }
+        ]
+    },
+    {
+        "id": "back-end",
+        "title": "BackEnd",
+        "skills": [
+            {
+                "name": "Node.js",
+                "icon": "https://simpleicons.org/icons/nodedotjs.svg"
+            },
+            {
+                "name": "Express.js",
+                "icon": "https://simpleicons.org/icons/express.svg"
+            },
+            {
+                "name": "MongoDB",
+                "icon": "https://simpleicons.org/icons/mongodb.svg"
+            },
+            {
+                "name": "API REST",
+                "icon": "https://cdnjs.cloudflare.com/ajax/libs/simple-icons/4.25.0/postman.svg"
+            }
+        ]
+    },
+    {
+        "id": "outils",
+        "title": "Outils",
+        "skills": [
+            {
+                "name": "Lighthouse",
+                "icon": "https://simpleicons.org/icons/lighthouse.svg"
+            },
+            {
+                "name": "GTmetrix",
+                "icon": "https://cdnjs.cloudflare.com/ajax/libs/simple-icons/4.25.0/speedtest.svg"
+            },
+            {
+                "name": "Trello",
+                "icon": "https://simpleicons.org/icons/trello.svg"
+            }
+        ]
+    }
+]
