@@ -6,6 +6,11 @@
     text-align: center;
     color: whitesmoke;
 
+    &__content {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+
     &__title {
         font-size: 2rem;
         margin-bottom: 2rem;
@@ -23,5 +28,12 @@
         height: 200px;
         border-radius: 50%;
         object-fit: cover;
+        box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 16px rgba(0, 0, 0, 0.2);
+        }
     }
 }
