@@ -162,3 +162,11 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .project-card {
+        &:hover {
+            transform: none;
+        }
+    }
+}
