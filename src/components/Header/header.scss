@@ -6,7 +6,7 @@ header {
     z-index: 100;
     display: flex;
     justify-content: space-between;
-    padding: 0.6rem 2rem 0.6rem 2rem;
+    padding: 0.6rem 2rem;
     background-color: #f8f5ee;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 
@@ -56,6 +56,11 @@ header {
 
 @media (max-width: 768px) {
     header {
+        .header-left {
+            .header-icon {
+                margin-left: 1rem;
+            }
+        }
         nav {
             font-size: 18px;
             gap: 30px;
@@ -66,7 +71,6 @@ header {
 
 @media (max-width: 600px) {
     header {
-        padding: 0.6rem 0.6rem 0.6rem 0.6rem;
         .header-left {
             .header-icon {
                 margin-left: 0.75rem;
@@ -77,6 +81,26 @@ header {
             font-size: 14px;
             gap: 5px;
             padding-right: 0;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    header {
+        padding: 0.6rem 1.5rem;
+        .header-left {
+            .header-icon {
+                width: 20px;
+                height: 20px;
+                margin-left: 0.5rem;
+            }
+        }
+        nav {
+            gap: 2.5px;
+        }
+        .logo {
+            width: 30px;
+            height: 30px;
         }
     }
 }
