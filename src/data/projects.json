@@ -49,5 +49,13 @@
         "description": "Gestion de projet - planification du développement du site Menu Maker.",
         "tags": ["Gestion de projet", "Trello", "Agile", "SCRUM"],
         "trello": "https://trello.com/b/7q5x8iM6/qwenta"
+    },
+    {
+        "id": "weather-app",
+        "title": "Basic Weather App",
+        "cover": "https://cdn.pixabay.com/photo/2017/12/06/05/23/cloud-3001010_1280.png",
+        "description": "Conception d'un widget météo basique en utilisant l'API d'OpenWeatherMap pour récupérer les données météos",
+        "tags": ["JavaScript", "HTML", "CSS", "API REST"],
+        "github": "https://github.com/lwojski/Basic-Weather-App"
     }
 ]
